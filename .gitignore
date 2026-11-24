@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+Data3/Connacionales_inscritos_en_el_Registro_Ciudadano_en_Línea_20261117.csv

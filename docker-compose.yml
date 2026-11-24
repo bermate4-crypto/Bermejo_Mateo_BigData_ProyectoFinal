@@ -1,0 +1,9 @@
+services:
+  dashboard:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    container_name: proyecto-bigdata
+    ports:
+      - "8502:8501"
+    restart: unless-stopped
